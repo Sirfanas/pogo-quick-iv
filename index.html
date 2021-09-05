@@ -1,0 +1,58 @@
+<!-- Made by Sirfanas -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap import -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- JQuery import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Custom js import -->
+    <script src="index.js"></script>
+
+    <title>PoGo IV !</title>
+  </head>
+  <body class="d-flex flex-column h-100">
+    <div class="container-fluid">
+      <div class="row pt-3 pb-3 text-center bg-secondary text-light">
+        <div class="col">
+          <h1>
+            Pokémon GO IV Calculator !
+          </h1>
+        </div>
+      </div>
+      <div class="row pt-2">
+          <div class="col">
+            <div id="attack" title="Attack" class="statbar" size="15" value="10" color="danger"></div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col">
+            <div id="defense" title="Defense" class="statbar" size="15" value="10" color="primary"></div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col">
+            <div id="hp" title="HP" class="statbar" size="15" value="10" color="success"></div>
+          </div>
+      </div>
+      <div class="row mt-5">
+          <div class="col-12">
+            <h1>
+              <p class="p-5 bg-secondary text-light text-center">
+                  Global IV: <span id="IV"/>
+              </p>
+            </h1>
+          </div>
+      </div>
+    </div>
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">
+          Made by <a class="" href="https://github.com/Sirfanas">Sirfanas</a>.
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>

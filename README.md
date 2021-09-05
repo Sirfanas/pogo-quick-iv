@@ -1,1 +1,1 @@
-# pogo-quick-iv
+# Pokémon go quick IV calculator
